@@ -11,7 +11,7 @@ position = Vector2(946, 546)
 
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
-[node name="HealthPack" parent="." instance=ExtResource("3_etm7e")]
+[node name="HealthPack" parent="." groups=["healing_item"] instance=ExtResource("3_etm7e")]
 position = Vector2(494, 822)
 
 [node name="HealthPack2" parent="." instance=ExtResource("3_etm7e")]
